@@ -2,7 +2,7 @@ class Config {
   defaults = {
     overrideStorage: false,
     temperature: {
-      location: "London",
+      location: "Alicante",
       scale: "C",
     },
     clock: {
@@ -16,7 +16,7 @@ class Config {
 
   config;
 
-  constructor (config) {
+  constructor(config) {
     this.config = config;
     this.storage = new Storage("config");
 
@@ -27,8 +27,7 @@ class Config {
     return new Proxy(this, {
       ...this,
       __proto__: this.__proto__,
-      set: (target, prop, value) =>
-        this.settingUpdatedCallback(target, prop, value)
+      set: (target, prop, value) => this.settingUpdatedCallback(target, prop, value),
     });
   }
 
@@ -52,14 +51,10 @@ class Config {
    * @returns {void}
    */
   autoConfig() {
-    Object.keys(this.defaults).forEach(setting => {
-      if (this.canOverrideStorage(setting))
-        this[setting] = this.config[setting];
-      else
-        if (this.storage.hasValue(setting))
-          this[setting] = this.storage.get(setting);
-        else
-          this[setting] = this.defaults[setting];
+    Object.keys(this.defaults).forEach((setting) => {
+      if (this.canOverrideStorage(setting)) this[setting] = this.config[setting];
+      else if (this.storage.hasValue(setting)) this[setting] = this.storage.get(setting);
+      else this[setting] = this.defaults[setting];
     });
   }
 
@@ -88,8 +83,7 @@ class Config {
     document.onkeypress = ({ key }) => {
       if (document.activeElement !== document.body) return;
 
-      if (Object.keys(this.config.keybindings).includes(key))
-        Actions.activate(this.config.keybindings[key]);
+      if (Object.keys(this.config.keybindings).includes(key)) Actions.activate(this.config.keybindings[key]);
     };
   }
 

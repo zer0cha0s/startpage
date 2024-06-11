@@ -30,7 +30,7 @@ class Links extends Component {
                       ${Links.getIcon(link)}
                       ${link.name ? `<p class="link-name">${link.name}</p>` : ""}
                     </a>
-                </div>`
+                </div>`,
                 )
                 .join("")}
             </div>
