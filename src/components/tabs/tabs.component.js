@@ -76,7 +76,6 @@ class Tabs extends Component {
     return [
       this.resources.icons.material,
       this.resources.icons.tabler,
-      this.resources.fonts.roboto,
       this.resources.fonts.raleway,
       this.resources.libs.awoo,
     ];
@@ -180,7 +179,8 @@ class Tabs extends Component {
       .categories ul .links a {
           color: #cdd6f4;
           text-decoration: none;
-          font: 700 18px 'Roboto', sans-serif;
+          font: 700 18px JetBrainsMono Nerd Font;
+          src: url(../fonts/jetbrains-mono.ttf);
           transition: all .2s;
           display: inline-flex;
           align-items: center;
@@ -221,7 +221,8 @@ class Tabs extends Component {
           background: linear-gradient(to top, rgb(50 48 47 / 90%), transparent);
           color: var(--flavour);
           letter-spacing: 1px;
-          font: 500 30px 'Nunito', sans-serif;
+          font: 700 24px JetBrainsMono Nerd Font;
+          src: url(../fonts/jetbrains-mono.ttf);
           text-align: center;
           flex-wrap: wrap;
           word-break: break-all;
@@ -243,7 +244,8 @@ class Tabs extends Component {
           font-weight: 600;
           letter-spacing: 1px;
           text-transform: uppercase;
-          font-family: 'Raleway', sans-serif;
+          font: 700 14px JetBrainsMono Nerd Font;
+          src: url(../fonts/jetbrains-mono.ttf);
       }
 
       .categories .link-icon {
