@@ -71,10 +71,6 @@ class Weather extends Component {
           height: 100%;
       }
 
-      .weather-temperature:hover .weather-temperature-location {
-          display: inline-block;
-      }
-
       .weather-temperature-location {
           display: none;
           margin-right: 10px;
