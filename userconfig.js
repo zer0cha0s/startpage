@@ -8,7 +8,7 @@ const default_config = {
   },
   clock: {
     format: "h:i p",
-    iconColor: "#f38ba8",
+    iconColor: "#ed8796",
   },
   disabled: [],
   fastlink: "https://linktr.ee/matt_ftw",

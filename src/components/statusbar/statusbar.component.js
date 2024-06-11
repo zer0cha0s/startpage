@@ -46,7 +46,7 @@ class Statusbar extends Component {
           height: 100%;
           position: relative;
           list-style: none;
-          margin-left: 1em;
+          margin-left: 5px;
       }
 
       #tabs ul li:not(:last-child)::after {
@@ -74,7 +74,8 @@ class Statusbar extends Component {
       }
 
       #tabs ul li:not(:last-child):hover {
-          background: #181825;
+          background: #1e2030;
+          border-radius: 10px;
       }
 
       #tabs ul li:last-child {
@@ -98,11 +99,11 @@ class Statusbar extends Component {
       #tabs ul li[active]:nth-child(5) ~ li:last-child { margin: 0 0 0 140px; }
 
       #tabs ul li[active]:nth-child(2) ~ li:last-child {
-          --flavour: #fab387;
+          --flavour: #c6a0f6;
       }
 
       #tabs ul li[active]:nth-child(3) ~ li:last-child {
-          --flavour: #f38ba8;
+          --flavour: #a6da95;
       }
 
       #tabs ul li[active]:nth-child(4) ~ li:last-child {
@@ -141,6 +142,7 @@ class Statusbar extends Component {
 
       .widget:hover {
           cursor: pointer;
+          border-radius: 10px;
           background: rgba(255, 255, 255, .05);
       }
 
@@ -169,10 +171,10 @@ class Statusbar extends Component {
 
       .fastlink {
           border: 0;
-          background: #181825;
+          background: #1e2030;
           color: #a6e3a1;
           cursor: pointer;
-          border-radius: 5px 15px 15px 5px;
+          border-radius: 10px;
       }
 
       .fastlink:hover {
@@ -180,7 +182,7 @@ class Statusbar extends Component {
       }
 
       .fastlink-icon {
-        width: 70%;
+        width: 50%;
       }
     `;
   }
@@ -190,7 +192,7 @@ class Statusbar extends Component {
         <div id="tabs">
             <cols>
                 <button class="+ fastlink">
-                  <img class="fastlink-icon" src="src/img/pokeball.svg"/>
+                  <img class="fastlink-icon" src="src/img/logo.png"/>
                 </button>
                 <ul class="- indicator"></ul>
                 <div class="+ widgets col-end">
