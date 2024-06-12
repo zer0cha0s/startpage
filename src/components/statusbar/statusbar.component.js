@@ -103,11 +103,11 @@ class Statusbar extends Component {
       }
 
       #tabs ul li[active]:nth-child(3) ~ li:last-child {
-          --flavour: #a6da95;
+          --flavour: #f5a97f;
       }
 
       #tabs ul li[active]:nth-child(4) ~ li:last-child {
-          --flavour: #94e2d5;
+          --flavour: #f4dbd6;
       }
 
       #tabs ul li[active]:nth-child(5) ~ li:last-child {
