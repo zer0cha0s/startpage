@@ -16,7 +16,7 @@ const default_config = {
   tabs: [
     {
       name: "personal",
-      background_url: "src/img/banners/cbg-9.gif",
+      background_url: "src/img/banners/window-room.png",
       categories: [
         {
           name: "media/rrss",
@@ -91,7 +91,7 @@ const default_config = {
     },
     {
       name: "dev",
-      background_url: "src/img/banners/cbg-8.gif",
+      background_url: "src/img/banners/retro-mario.png",
       categories: [
         {
           name: "media",
@@ -253,7 +253,7 @@ const default_config = {
     },
     {
       name: "gaming",
-      background_url: "src/img/banners/cbg-10.gif",
+      background_url: "src/img/banners/doom-slayer.png",
       categories: [
         {
           name: "stores",
@@ -397,7 +397,7 @@ const default_config = {
     },
     {
       name: "music",
-      background_url: "src/img/banners/cbg-10.gif",
+      background_url: "src/img/banners/lofi.jpg",
       categories: [
         {
           name: "listen",
@@ -507,7 +507,7 @@ const default_config = {
     },
     {
       name: "art",
-      background_url: "src/img/banners/cbg-10.gif",
+      background_url: "src/img/banners/sky.png",
       categories: [
         {
           name: "media",
