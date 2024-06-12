@@ -414,6 +414,12 @@ const default_config = {
               icon: "brand-soundcloud",
               icon_color: "#f5a97f",
             },
+            {
+              name: "genius",
+              url: "https://genius.com/",
+              icon: "abc",
+              icon_color: "#ed8796",
+            },
           ],
         },
         {
