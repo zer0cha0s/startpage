@@ -18,12 +18,12 @@ class Clock extends Component {
             white-space: nowrap;
             font: 300 9pt JetBrainsMono Nerd Font;
             src: url(../fonts/jetbrains-mono.ttf);
-            color: #cdd6f4;
+            color: #cad3f5;
             letter-spacing: .5px;
         }
 
         .clock-icon {
-            color: #f38ba8;
+            color: ##ed8796;
             font-size: 10pt;
             margin-right: 10px;
         }

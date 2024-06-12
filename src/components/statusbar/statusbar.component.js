@@ -88,7 +88,7 @@ class Statusbar extends Component {
       }
 
       #tabs ul li[active]:not(:last-child) {
-          color: #cdd6f4;
+          color: #cad3f5;
           font-size: 13px;
           padding: 6px 0;
       }
@@ -111,7 +111,7 @@ class Statusbar extends Component {
       }
 
       #tabs ul li[active]:nth-child(5) ~ li:last-child {
-          --flavour: #f5c2e7;
+          --flavour: #f5bde6;
       }
 
       .widgets {
@@ -172,7 +172,7 @@ class Statusbar extends Component {
       .fastlink {
           border: 0;
           background: #1e2030;
-          color: #a6e3a1;
+          color: ##a6da95;
           cursor: pointer;
           border-radius: 10px;
       }

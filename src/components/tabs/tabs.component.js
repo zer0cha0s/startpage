@@ -123,7 +123,7 @@ class Tabs extends Component {
       .categories ul {
           --panelbg: transparent;
           --flavour: var(--accent);
-          width: 105%;
+          width: 106%;
           height: 100%;
           right: 100%;
           background: #24273a url("../img/bg-1.gif") repeat left;
@@ -150,7 +150,7 @@ class Tabs extends Component {
       }
 
       .categories ul:nth-child(5) {
-          --flavour: #f5c2e7;
+          --flavour: #f5bde6;
       }
 
       .categories ul[active] {
@@ -209,6 +209,7 @@ class Tabs extends Component {
           height: 250px;
           padding: 1em;
           margin: auto;
+          margin-left: 20px;
           border-radius: 10px;
           box-shadow: inset 0 0 0 2px var(--flavour);
           left: calc(15% - 42.5px);
@@ -223,7 +224,7 @@ class Tabs extends Component {
           flex-wrap: wrap;
           word-break: break-all;
           align-items: center;
-          backdrop-filter: blur(3px);
+          backdrop-filter: blur(10px);
       }
 
       .categories .links li:not(:last-child) {
