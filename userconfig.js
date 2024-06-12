@@ -12,7 +12,7 @@ const default_config = {
   },
   disabled: [],
   fastlink: "https://linktr.ee/matt_ftw",
-  openLastVisitedTab: true,
+  openLastVisitedTab: false,
   tabs: [
     {
       name: "personal",
