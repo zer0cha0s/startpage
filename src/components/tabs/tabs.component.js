@@ -87,7 +87,7 @@ class Tabs extends Component {
           height: 32px;
           background: #24273a;
           border-radius: 10px;
-          box-shadow: 0 10px 20px rgba(0, 0, 0, .25);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.50);
       }
 
       #panels, #panels ul,
@@ -108,7 +108,7 @@ class Tabs extends Component {
           top: 0;
           bottom: 0;
           margin: auto;
-          box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.50);
           background: #24273a;
       }
 
@@ -182,7 +182,7 @@ class Tabs extends Component {
           align-items: center;
           padding: .4em .7em;
           background: #1e2030;
-          box-shadow: 0 4px rgba(24, 24, 37, 0.5), 0 5px 10px rgb(0 0 0 / 20%);
+          box-shadow: 0 4px rgba(24, 24, 37, 0.5), 0 5px 10px rgb(0 0 0 / 40%);
           border-radius: 10px;
           margin-bottom: .7em;
       }
