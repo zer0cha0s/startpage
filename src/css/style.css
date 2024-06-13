@@ -33,7 +33,7 @@
 
 :root {
     --accent: #b7bdf8;
-    --bg: #181926;
+    --bg: #1e2030;
 }
 
 body {
@@ -57,5 +57,5 @@ tabs-list {
     background-size: cover;
     background-color: var(--bg);
     background-position: center;
-    /* background-image: url(../img/background.png);  */
+    background-image: url(../img/background.png);
 }
