@@ -3,7 +3,7 @@ let saved_config = JSON.parse(localStorage.getItem("CONFIG"));
 const default_config = {
   overrideStorage: true,
   temperature: {
-    location: "Alicante",
+    location: "Southampton",
     scale: "C",
   },
   clock: {
@@ -11,7 +11,7 @@ const default_config = {
     iconColor: "#ed8796",
   },
   disabled: [],
-  fastlink: "https://linktr.ee/matt_ftw",
+  fastlink: "https://linktr.ee/zerochaos",
   openLastVisitedTab: false,
   tabs: [
     {
@@ -202,19 +202,19 @@ const default_config = {
           links: [
             {
               name: "dotfiles",
-              url: "https://github.com/Matt-FTW/dotfiles",
+              url: "https://github.com/zer0cha0s/dotfiles",
               icon: "palette",
               icon_color: "#a6da95",
             },
             {
               name: "obsidian",
-              url: "https://github.com/Matt-FTW/obsidianVault",
+              url: "https://github.com/zer0cha0s/obsidianVault",
               icon: "notes",
               icon_color: "#f5a97f",
             },
             {
               name: "startpage",
-              url: "https://github.com/Matt-FTW/startpage",
+              url: "https://github.com/zer0cha0s/startpage",
               icon: "layout-dashboard",
               icon_color: "#ed8796",
             },
@@ -272,7 +272,7 @@ const default_config = {
             },
             {
               name: "gog",
-              url: "https://www.reddit.com/r/audiophile/",
+              url: "https://www.gog.com",
               icon: "brand-appgallery",
               icon_color: "#ed8796",
             },
@@ -443,24 +443,6 @@ const default_config = {
           name: "discussion",
           links: [
             {
-              name: "r/musicproduction",
-              url: "https://www.reddit.com/r/musicproduction/",
-              icon: "device-speaker",
-              icon_color: "#a6da95",
-            },
-            {
-              name: "r/hiphopheads",
-              url: "https://www.reddit.com/r/hiphopheads/",
-              icon: "headphones",
-              icon_color: "#f5a97f",
-            },
-            {
-              name: "r/audiophile",
-              url: "https://www.reddit.com/r/audiophile/",
-              icon: "ear",
-              icon_color: "#ed8796",
-            },
-            {
               name: "r/music",
               url: "https://www.reddit.com/r/music/",
               icon: "music-heart",
@@ -488,24 +470,6 @@ const default_config = {
               url: "https://www.pluginboutique.com/",
               icon: "building-store",
               icon_color: "#f5a97f",
-            },
-            {
-              name: "pianobook",
-              url: "https://www.pianobook.co.uk",
-              icon: "piano",
-              icon_color: "#ed8796",
-            },
-            {
-              name: "musescore",
-              url: "https://musescore.com/",
-              icon: "numbers",
-              icon_color: "#8aadf4",
-            },
-            {
-              name: "songsterr",
-              url: "https://www.songsterr.com/",
-              icon: "vinyl",
-              icon_color: "#c6a0f6",
             },
           ],
         },
