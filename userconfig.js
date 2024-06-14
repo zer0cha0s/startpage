@@ -41,7 +41,7 @@ const default_config = {
             },
             {
               name: "twitch",
-              url: "https://drive.google.com/drive/home",
+              url: "https://twitch.tv",
               icon: "brand-twitch",
               icon_color: "#8aadf4",
             },
@@ -64,7 +64,7 @@ const default_config = {
             },
             {
               name: "vault",
-              url: "https://vault.bitwarden.com",
+              url: "https://pass.proton.me",
               icon: "lock",
               icon_color: "#ed8796",
             },
