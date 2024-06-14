@@ -272,7 +272,7 @@ const default_config = {
             },
             {
               name: "gog",
-              url: "https://www.reddit.com/r/audiophile/",
+              url: "https://www.gog.com",
               icon: "brand-appgallery",
               icon_color: "#ed8796",
             },
