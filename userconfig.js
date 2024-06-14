@@ -41,7 +41,7 @@ const default_config = {
             },
             {
               name: "twitch",
-              url: "https://drive.google.com/drive/home",
+              url: "https://www.twitch.tv/",
               icon: "brand-twitch",
               icon_color: "#8aadf4",
             },
