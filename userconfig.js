@@ -87,6 +87,23 @@ const default_config = {
             },
           ],
         },
+        {
+          name: "piracy",
+          links: [
+            {
+              name: "fmhy",
+              url: "https://fmhy.net/",
+              icon: "barrier-block",
+              icon_color: "#a6da95",
+            },
+            {
+              name: "r/piracy",
+              url: "https://www.reddit.com/r/Piracy/",
+              icon: "skull",
+              icon_color: "#f5a97f",
+            },
+          ],
+        },
       ],
     },
     {
