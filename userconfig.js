@@ -40,10 +40,16 @@ const default_config = {
               icon_color: "#ed8796",
             },
             {
+              name: "twitter",
+              url: "https://www.twitter.com/",
+              icon: "brand-twitter",
+              icon_color: "#8aadf4",
+            },
+            {
               name: "twitch",
               url: "https://www.twitch.tv/",
               icon: "brand-twitch",
-              icon_color: "#8aadf4",
+              icon_color: "#c6a0f6",
             },
           ],
         },
