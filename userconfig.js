@@ -22,9 +22,9 @@ const default_config = {
           name: "media/rrss",
           links: [
             {
-              name: "youtube",
-              url: "https://www.youtube.com/",
-              icon: "brand-youtube",
+              name: "mastodon",
+              url: "https://mastodon.social",
+              icon: "brand-mastodon",
               icon_color: "#a6da95",
             },
             {
@@ -34,9 +34,9 @@ const default_config = {
               icon_color: "#f5a97f",
             },
             {
-              name: "mastodon",
-              url: "https://mastodon.social",
-              icon: "brand-mastodon",
+              name: "youtube",
+              url: "https://www.youtube.com/",
+              icon: "brand-youtube",
               icon_color: "#ed8796",
             },
             {
