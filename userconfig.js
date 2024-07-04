@@ -454,6 +454,12 @@ const default_config = {
               icon: "stars-off",
               icon_color: "#f5a97f",
             },
+            {
+              name: "lastfm",
+              url: "https://www.last.fm",
+              icon: "brand-lastfm",
+              icon_color: "#ed8796",
+            },
           ],
         },
         {
