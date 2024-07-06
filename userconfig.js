@@ -548,7 +548,7 @@ const default_config = {
               icon_color: "#a6da95",
             },
             {
-              name: "pivix",
+              name: "pixiv",
               url: "https://www.pixiv.net/en/",
               icon: "artboard",
               icon_color: "#f5a97f",
