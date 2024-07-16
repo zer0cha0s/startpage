@@ -98,7 +98,7 @@ const default_config = {
             },
             {
               name: "r/piracy",
-              url: "https://www.reddit.com/r/Piracy/",
+              url: "https://www.reddit.com/r/Piracy/wiki/megathread",
               icon: "skull",
               icon_color: "#f5a97f",
             },
