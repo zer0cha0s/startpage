@@ -102,6 +102,12 @@ const default_config = {
               icon: "skull",
               icon_color: "#f5a97f",
             },
+            {
+              name: "gaming",
+              url: "https://rentry.org/pgames",
+              icon: "device-gamepad",
+              icon_color: "#ed8796",
+            },
           ],
         },
       ],
