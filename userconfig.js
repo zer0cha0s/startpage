@@ -409,8 +409,8 @@ const default_config = {
               icon_color: "#a6da95",
             },
             {
-              name: "RAWG",
-              url: "https://rawg.io/",
+              name: "HowLongToBeat",
+              url: "https://www.howlongtobeat.com",
               icon: "books",
               icon_color: "#f5a97f",
             },
