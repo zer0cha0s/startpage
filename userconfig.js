@@ -387,7 +387,7 @@ const default_config = {
             },
             {
               name: "modrinth",
-              url: "https://www.modrinth.com/",
+              url: "https://modrinth.com/",
               icon: "brand-minecraft",
               icon_color: "#f5a97f",
             },
