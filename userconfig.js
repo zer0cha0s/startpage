@@ -694,6 +694,24 @@ const default_config = {
               icon: "language",
               icon_color: "#f5a97f",
             },
+            {
+              name: "monkeytype",
+              url: "https://monkeytype.com/",
+              icon: "keyboard",
+              icon_color: "#ed8796",
+            },
+            {
+              name: "dub",
+              url: "https://dub.co/",
+              icon: "external-link",
+              icon_color: "#8aadf4",
+            },
+            {
+              name: "cleanurl",
+              url: "https://12ft.io/",
+              icon: "spray",
+              icon_color: "#c6a0f6",
+            },
           ],
         },
         {
