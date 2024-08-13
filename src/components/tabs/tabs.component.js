@@ -153,6 +153,10 @@ class Tabs extends Component {
           --flavour: #f5bde6;
       }
 
+      .categories ul:nth-child(6) {
+          --flavour: #8aadf4;
+      }
+
       .categories ul[active] {
           right: 0;
           z-index: 1;

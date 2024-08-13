@@ -77,7 +77,7 @@ const default_config = {
           ],
         },
         {
-          name: "work",
+          name: "job",
           links: [
             {
               name: "linkedin",
@@ -88,25 +88,31 @@ const default_config = {
           ],
         },
         {
-          name: "piracy",
+          name: "shopping",
           links: [
             {
-              name: "fmhy",
-              url: "https://fmhy.net/",
-              icon: "barrier-block",
+              name: "amazon",
+              url: "https://www.amazon.es/",
+              icon: "brand-amazon",
               icon_color: "#a6da95",
             },
             {
-              name: "megathread",
-              url: "https://rentry.org/megathread",
-              icon: "skull",
+              name: "amazon-tracker",
+              url: "https://camelcamelcamel.com/",
+              icon: "chart-area",
               icon_color: "#f5a97f",
             },
             {
-              name: "gaming",
-              url: "https://rentry.org/pgames",
-              icon: "device-gamepad",
+              name: "kimovil",
+              url: "https://www.kimovil.com/en/",
+              icon: "cell-signal-5",
               icon_color: "#ed8796",
+            },
+            {
+              name: "chollometro",
+              url: "https://www.chollometro.com/",
+              icon: "basket",
+              icon_color: "#8aadf4",
             },
           ],
         },
@@ -194,6 +200,36 @@ const default_config = {
               url: "https://codepen.io/",
               icon: "brand-codepen",
               icon_color: "#8aadf4",
+            },
+            {
+              name: "readme.so",
+              url: "https://readme.so/editor",
+              icon: "book-2",
+              icon_color: "#c6a0f6",
+            },
+            {
+              name: "postgres-new",
+              url: "https://postgres.new/",
+              icon: "database",
+              icon_color: "#91d7e3",
+            },
+            {
+              name: "penpot",
+              url: "https://penpot.app/",
+              icon: "edit-circle",
+              icon_color: "#b7bdf8",
+            },
+            {
+              name: "jsoncrack",
+              url: "https://jsoncrack.com/editor",
+              icon: "info-square-rounded",
+              icon_color: "#f0c6c6",
+            },
+            {
+              name: "it-tools",
+              url: "https://it-tools.tech/",
+              icon: "tools",
+              icon_color: "#f5bde6",
             },
           ],
         },
@@ -628,6 +664,110 @@ const default_config = {
               url: "https://excalidraw.com/",
               icon: "pencil",
               icon_color: "#f5a97f",
+            },
+            {
+              name: "squoosh",
+              url: "https://squoosh.app/",
+              icon: "aspect-ratio",
+              icon_color: "#ed8796",
+            },
+          ],
+        },
+      ],
+    },
+    {
+      name: "tools",
+      background_url: "src/img/banners/tokyo.png",
+      categories: [
+        {
+          name: "general",
+          links: [
+            {
+              name: "alternative-to",
+              url: "https://alternativeto.net/",
+              icon: "box-multiple",
+              icon_color: "#a6da95",
+            },
+            {
+              name: "lingva",
+              url: "https://lingva.ml/",
+              icon: "language",
+              icon_color: "#f5a97f",
+            },
+          ],
+        },
+        {
+          name: "piracy",
+          links: [
+            {
+              name: "fmhy",
+              url: "https://fmhy.net/",
+              icon: "barrier-block",
+              icon_color: "#a6da95",
+            },
+            {
+              name: "megathread",
+              url: "https://rentry.org/megathread",
+              icon: "skull",
+              icon_color: "#f5a97f",
+            },
+            {
+              name: "gaming",
+              url: "https://rentry.org/pgames",
+              icon: "device-gamepad",
+              icon_color: "#ed8796",
+            },
+          ],
+        },
+        {
+          name: "privacy",
+          links: [
+            {
+              name: "adblock-test",
+              url: "https://d3ward.github.io/toolz/adblock.html",
+              icon: "lock-access",
+              icon_color: "#a6da95",
+            },
+            {
+              name: "privacy-guides",
+              url: "https://www.privacyguides.org/en/",
+              icon: "arrow-guide",
+              icon_color: "#f5a97f",
+            },
+            {
+              name: "r/privacy",
+              url: "https://www.reddit.com/r/privacy/",
+              icon: "door-off",
+              icon_color: "#ed8796",
+            },
+          ],
+        },
+        {
+          name: "security",
+          links: [
+            {
+              name: "r/cybersecurity",
+              url: "https://www.reddit.com/r/cybersecurity/",
+              icon: "fingerprint",
+              icon_color: "#a6da95",
+            },
+            {
+              name: "virus-total",
+              url: "https://www.virustotal.com",
+              icon: "virus-search",
+              icon_color: "#f5a97f",
+            },
+            {
+              name: "hackthebox",
+              url: "https://www.hackthebox.com/",
+              icon: "biohazard",
+              icon_color: "#ed8796",
+            },
+            {
+              name: "triage",
+              url: "https://tria.ge/",
+              icon: "dna-2",
+              icon_color: "#8aadf4",
             },
           ],
         },
