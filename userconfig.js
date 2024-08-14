@@ -231,6 +231,12 @@ const default_config = {
               icon: "tools",
               icon_color: "#f5bde6",
             },
+            {
+              name: "regex101",
+              url: "https://regex101.com/",
+              icon: "regex",
+              icon_color: "#8087a2",
+            },
           ],
         },
         {
@@ -711,6 +717,12 @@ const default_config = {
               url: "https://www.reddit.com/r/privacy/",
               icon: "door-off",
               icon_color: "#ed8796",
+            },
+            {
+              name: "guerrilla-mail",
+              url: "https://www.guerrillamail.com",
+              icon: "trash",
+              icon_color: "#8aadf4",
             },
           ],
         },
