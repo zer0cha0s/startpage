@@ -256,58 +256,6 @@ const default_config = {
             },
           ],
         },
-        {
-          name: "personal repos",
-          links: [
-            {
-              name: "dotfiles",
-              url: "https://github.com/Matt-FTW/dotfiles",
-              icon: "palette",
-              icon_color: "#a6da95",
-            },
-            {
-              name: "obsidian",
-              url: "https://github.com/Matt-FTW/obsidianVault",
-              icon: "notes",
-              icon_color: "#f5a97f",
-            },
-            {
-              name: "startpage",
-              url: "https://github.com/Matt-FTW/startpage",
-              icon: "layout-dashboard",
-              icon_color: "#ed8796",
-            },
-          ],
-        },
-        {
-          name: "other repos",
-          links: [
-            {
-              name: "lazyvim",
-              url: "https://github.com/LazyVim/LazyVim",
-              icon: "code",
-              icon_color: "#a6da95",
-            },
-            {
-              name: "hyprland",
-              url: "https://github.com/hyprwm/Hyprland",
-              icon: "app-window",
-              icon_color: "#f5a97f",
-            },
-            {
-              name: "yazi",
-              url: "https://github.com/sxyazi/yazi",
-              icon: "folder-open",
-              icon_color: "#ed8796",
-            },
-            {
-              name: "material-ui apps",
-              url: "https://github.com/nyas1/Material-You-app-list",
-              icon: "brand-android",
-              icon_color: "#8aadf4",
-            },
-          ],
-        },
       ],
     },
     {
