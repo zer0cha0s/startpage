@@ -608,7 +608,7 @@ const default_config = {
           name: "tools",
           links: [
             {
-              name: "palette-converter",
+              name: "convert-image-palette",
               url: "https://farbenfroh.io/",
               icon: "adjustments",
               icon_color: "#a6da95",
@@ -624,6 +624,18 @@ const default_config = {
               url: "https://squoosh.app/",
               icon: "aspect-ratio",
               icon_color: "#ed8796",
+            },
+            {
+              name: "palette-generator",
+              url: "https://rosepinetheme.com/",
+              icon: "palette",
+              icon_color: "#8aadf4",
+            },
+            {
+              name: "color-picker",
+              url: "https://12ft.io/",
+              icon: "color-picker",
+              icon_color: "#c6a0f6",
             },
           ],
         },
