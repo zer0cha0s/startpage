@@ -678,6 +678,12 @@ const default_config = {
               icon: "spray",
               icon_color: "#c6a0f6",
             },
+            {
+              name: "speed-test",
+              url: "https://librespeed.org/",
+              icon: "brand-speedtest",
+              icon_color: "#91d7e3",
+            },
           ],
         },
         {
