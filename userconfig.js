@@ -91,21 +91,21 @@ const default_config = {
           name: "shopping",
           links: [
             {
+              name: "pccomponentes",
+              url: "https://www.pccomponentes.com/",
+              icon: "device-desktop",
+              icon_color: "#a6da95",
+            },
+            {
               name: "amazon",
               url: "https://www.amazon.es/",
               icon: "brand-amazon",
-              icon_color: "#a6da95",
+              icon_color: "#f5a97f",
             },
             {
               name: "amazon-tracker",
               url: "https://camelcamelcamel.com/",
               icon: "chart-area",
-              icon_color: "#f5a97f",
-            },
-            {
-              name: "kimovil",
-              url: "https://www.kimovil.com/en/",
-              icon: "cell-signal-5",
               icon_color: "#ed8796",
             },
             {
@@ -113,6 +113,12 @@ const default_config = {
               url: "https://www.chollometro.com/",
               icon: "basket",
               icon_color: "#8aadf4",
+            },
+            {
+              name: "kimovil",
+              url: "https://www.kimovil.com/en/",
+              icon: "cell-signal-5",
+              icon_color: "#c6a0f6",
             },
           ],
         },
@@ -403,6 +409,12 @@ const default_config = {
               url: "https://www.howlongtobeat.com",
               icon: "books",
               icon_color: "#f5a97f",
+            },
+            {
+              name: "steamdb",
+              url: "https://steamdb.info/",
+              icon: "database-search",
+              icon_color: "#ed8796",
             },
           ],
         },
