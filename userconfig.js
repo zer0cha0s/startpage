@@ -74,6 +74,12 @@ const default_config = {
               icon: "cloud",
               icon_color: "#8aadf4",
             },
+            {
+              name: "syncthing",
+              url: "http://127.0.0.1:8384/",
+              icon: "refresh",
+              icon_color: "#c6a0f6",
+            },
           ],
         },
         {
@@ -184,9 +190,9 @@ const default_config = {
           name: "tools",
           links: [
             {
-              name: "chatgpt",
-              url: "https://chatgpt.com/",
-              icon: "brand-openai",
+              name: "regex101",
+              url: "https://regex101.com/",
+              icon: "regex",
               icon_color: "#a6da95",
             },
             {
@@ -236,12 +242,6 @@ const default_config = {
               url: "https://it-tools.tech/",
               icon: "tools",
               icon_color: "#f5bde6",
-            },
-            {
-              name: "regex101",
-              url: "https://regex101.com/",
-              icon: "regex",
-              icon_color: "#8087a2",
             },
           ],
         },
@@ -782,6 +782,29 @@ const default_config = {
               url: "https://tria.ge/",
               icon: "dna-2",
               icon_color: "#8aadf4",
+            },
+          ],
+        },
+        {
+          name: "ai",
+          links: [
+            {
+              name: "chatgpt",
+              url: "https://chatgpt.com/",
+              icon: "brand-openai",
+              icon_color: "#a6da95",
+            },
+            {
+              name: "huggingface",
+              url: "https://huggingface.co/",
+              icon: "robot",
+              icon_color: "#f5a97f",
+            },
+            {
+              name: "open-webui",
+              url: "http://127.0.0.1:8080/",
+              icon: "message-chatbot",
+              icon_color: "#ed8796",
             },
           ],
         },
