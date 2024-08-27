@@ -74,12 +74,6 @@ const default_config = {
               icon: "cloud",
               icon_color: "#8aadf4",
             },
-            {
-              name: "syncthing",
-              url: "http://127.0.0.1:8384/",
-              icon: "refresh",
-              icon_color: "#c6a0f6",
-            },
           ],
         },
         {
@@ -125,6 +119,23 @@ const default_config = {
               url: "https://www.kimovil.com/en/",
               icon: "cell-signal-5",
               icon_color: "#c6a0f6",
+            },
+          ],
+        },
+        {
+          name: "services",
+          links: [
+            {
+              name: "portainer",
+              url: "http://127.0.0.1:9000",
+              icon: "brand-docker",
+              icon_color: "#a6da95",
+            },
+            {
+              name: "syncthing",
+              url: "http://127.0.0.1:8384/",
+              icon: "refresh",
+              icon_color: "#f5a97f",
             },
           ],
         },
