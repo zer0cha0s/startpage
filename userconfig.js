@@ -696,16 +696,10 @@ const default_config = {
               icon_color: "#8aadf4",
             },
             {
-              name: "cleanurl",
-              url: "https://12ft.io/",
-              icon: "spray",
-              icon_color: "#c6a0f6",
-            },
-            {
               name: "speed-test",
               url: "https://librespeed.org/",
               icon: "brand-speedtest",
-              icon_color: "#91d7e3",
+              icon_color: "#c6a0f6",
             },
           ],
         },
@@ -765,6 +759,12 @@ const default_config = {
               icon: "trash",
               icon_color: "#8aadf4",
             },
+            {
+              name: "cleanurl",
+              url: "https://12ft.io/",
+              icon: "spray",
+              icon_color: "#c6a0f6",
+            },
           ],
         },
         {
@@ -793,6 +793,12 @@ const default_config = {
               url: "https://tria.ge/",
               icon: "dna-2",
               icon_color: "#8aadf4",
+            },
+            {
+              name: "urlvoid",
+              url: "https://www.urlvoid.com/",
+              icon: "search",
+              icon_color: "#c6a0f6",
             },
           ],
         },
