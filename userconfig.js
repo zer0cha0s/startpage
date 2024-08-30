@@ -713,6 +713,12 @@ const default_config = {
               icon: "transform",
               icon_color: "#b7bdf8",
             },
+            {
+              name: "is-it-down",
+              url: "https://downforeveryoneorjustme.com/",
+              icon: "server-off",
+              icon_color: "#f0c6c6",
+            },
           ],
         },
         {
