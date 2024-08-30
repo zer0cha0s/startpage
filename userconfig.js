@@ -701,6 +701,18 @@ const default_config = {
               icon: "brand-speedtest",
               icon_color: "#c6a0f6",
             },
+            {
+              name: ".to",
+              url: "https://rentry.co/tosites",
+              icon: "arrow-loop-right",
+              icon_color: "#91d7e3",
+            },
+            {
+              name: "cloudconvert",
+              url: "https://cloudconvert.com/",
+              icon: "transform",
+              icon_color: "#b7bdf8",
+            },
           ],
         },
         {
