@@ -381,6 +381,12 @@ const default_config = {
               icon: "pacman",
               icon_color: "#ed8796",
             },
+            {
+              name: "gaming",
+              url: "https://rentry.org/pgames",
+              icon: "device-gamepad",
+              icon_color: "#8aadf4",
+            },
           ],
         },
         {
@@ -736,17 +742,12 @@ const default_config = {
               icon: "skull",
               icon_color: "#f5a97f",
             },
-            {
-              name: "gaming",
-              url: "https://rentry.org/pgames",
-              icon: "device-gamepad",
-              icon_color: "#ed8796",
-            },
+
             {
               name: "mobilism",
               url: "https://forum.mobilism.me/",
               icon: "device-mobile",
-              icon_color: "#8aadf4",
+              icon_color: "#ed8796",
             },
           ],
         },
