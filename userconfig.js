@@ -382,7 +382,7 @@ const default_config = {
               icon_color: "#ed8796",
             },
             {
-              name: "gaming",
+              name: "games megathread",
               url: "https://rentry.org/pgames",
               icon: "device-gamepad",
               icon_color: "#8aadf4",
