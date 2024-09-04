@@ -137,6 +137,12 @@ const default_config = {
               icon: "refresh",
               icon_color: "#f5a97f",
             },
+            {
+              name: "vercel",
+              url: "https://vercel.com/dashboard",
+              icon: "brand-vercel",
+              icon_color: "#ed8796",
+            },
           ],
         },
       ],
