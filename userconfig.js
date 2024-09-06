@@ -825,6 +825,18 @@ const default_config = {
               icon: "search",
               icon_color: "#c6a0f6",
             },
+            {
+              name: "cyberchef",
+              url: "https://gchq.github.io/CyberChef/",
+              icon: "chef-hat",
+              icon_color: "#91d7e3",
+            },
+            {
+              name: "urlscan",
+              url: "https://urlscan.io/",
+              icon: "forms",
+              icon_color: "#b7bdf8",
+            },
           ],
         },
         {
