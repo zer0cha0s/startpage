@@ -77,6 +77,17 @@ const default_config = {
           ],
         },
         {
+          name: "school",
+          links: [
+            {
+              name: "aules",
+              url: "https://portal.edu.gva.es/aules/es/inicio/",
+              icon: "school",
+              icon_color: "#a6da95",
+            },
+          ],
+        },
+        {
           name: "job",
           links: [
             {
