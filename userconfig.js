@@ -85,6 +85,12 @@ const default_config = {
               icon: "school",
               icon_color: "#a6da95",
             },
+            {
+              name: "outlook",
+              url: "https://outlook.office.com/mail/",
+              icon: "inbox",
+              icon_color: "#f5a97f",
+            },
           ],
         },
         {
