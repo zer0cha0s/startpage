@@ -81,7 +81,7 @@ const default_config = {
           links: [
             {
               name: "aules",
-              url: "https://portal.edu.gva.es/aules/es/inicio/",
+              url: "https://aules.edu.gva.es/semipresencial/my/index.php?lang=es",
               icon: "school",
               icon_color: "#a6da95",
             },
