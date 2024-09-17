@@ -4,7 +4,7 @@ class Links extends Component {
   }
 
   static getIcon(link) {
-    const defaultColor = "#24273a";
+    const defaultColor = CONFIG.palette.base;
 
     return link.icon
       ? `<i class="ti ti-${link.icon} link-icon"
@@ -85,7 +85,7 @@ class Tabs extends Component {
       status-bar {
           bottom: -50px;
           height: 32px;
-          background: #24273a;
+          background: ${CONFIG.palette.base};
           border-radius: 10px;
           box-shadow: 0 10px 20px rgba(0, 0, 0, 0.50);
       }
@@ -109,7 +109,7 @@ class Tabs extends Component {
           bottom: 0;
           margin: auto;
           box-shadow: 0 5px 10px rgba(0, 0, 0, 0.50);
-          background: #24273a;
+          background: ${CONFIG.palette.base};
       }
 
       .categories {
@@ -126,7 +126,7 @@ class Tabs extends Component {
           width: 106%;
           height: 100%;
           right: 100%;
-          background: #24273a url("../img/bg-1.gif") repeat left;
+          background: ${CONFIG.palette.base} url("../img/bg-1.gif") repeat left;
           transition: all .5s;
           # animation: scroll 25s ease-in-out infinite;
       }
@@ -137,24 +137,28 @@ class Tabs extends Component {
           }
       }
 
+      .categories ul:nth-child(1) {
+          --flavour: ${CONFIG.palette.lavender};
+      }
+
       .categories ul:nth-child(2) {
-          --flavour: #c6a0f6;
+          --flavour: ${CONFIG.palette.mauve};
       }
 
       .categories ul:nth-child(3) {
-          --flavour: #f5a97f;
+          --flavour: ${CONFIG.palette.peach};
       }
 
       .categories ul:nth-child(4) {
-          --flavour: #f4dbd6;
+          --flavour: ${CONFIG.palette.rosewater};
       }
 
       .categories ul:nth-child(5) {
-          --flavour: #f5bde6;
-      }
+          --flavour: ${CONFIG.palette.pink};
 
+      }
       .categories ul:nth-child(6) {
-          --flavour: #8aadf4;
+          --flavour: ${CONFIG.palette.blue};
       }
 
       .categories ul[active] {
@@ -166,7 +170,7 @@ class Tabs extends Component {
           right: 0;
           width: 70%;
           height: 100%;
-          background: #24273a;
+          background: ${CONFIG.palette.base};
           padding: 2%;
           flex-wrap: wrap;
           box-sizing: content-box;
@@ -177,7 +181,7 @@ class Tabs extends Component {
       }
 
       .categories ul .links a {
-          color: #cad3f5;
+          color: ${CONFIG.palette.text};
           text-decoration: none;
           font: 700 18px JetBrainsMono Nerd Font;
           src: url(../fonts/jetbrains-mono.ttf);
@@ -185,8 +189,8 @@ class Tabs extends Component {
           display: inline-flex;
           align-items: center;
           padding: .4em .7em;
-          background: #1e2030;
-          box-shadow: 0 4px rgba(24, 24, 37, 0.5), 0 5px 10px rgb(0 0 0 / 40%);
+          background: ${CONFIG.palette.mantle};
+          box-shadow: 0 4px ${CONFIG.palette.mantle}, 0 5px 10px rgb(0 0 0 / 40%);
           border-radius: 10px;
           margin-bottom: .7em;
       }
@@ -232,13 +236,13 @@ class Tabs extends Component {
       }
 
       .categories .links li:not(:last-child) {
-          box-shadow: 0 1px 0 rgba(205, 214, 244, .25);
+          box-shadow: 0 2.5px 0 ${CONFIG.palette.surface0};
           padding: 0 0 .5em 0;
           margin-bottom: 1.5em;
       }
 
       .categories .links li h1 {
-          color: #cad3f5;
+          color: ${CONFIG.palette.text};
           opacity: 0.5;
           font-size: 13px;
           margin-bottom: 1em;
@@ -251,7 +255,7 @@ class Tabs extends Component {
 
       .categories .link-icon {
           font-size: 27px;
-          color: #cad3f5;
+          color: ${CONFIG.palette.text};
       }
 
       .categories .link-icon + .link-name {

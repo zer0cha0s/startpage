@@ -66,7 +66,7 @@ class Statusbar extends Component {
           text-align: center;
           font: 700 14px JetBrainsMono Nerd Font;
           src: url(../fonts/jetbrains-mono.ttf);
-          color: rgba(205, 214, 244, 0.5);
+          color: ${CONFIG.palette.overlay0};
           padding: 6px 0;
           transition: all .1s;
           cursor: pointer;
@@ -75,8 +75,8 @@ class Statusbar extends Component {
       }
 
       #tabs ul li:not(:last-child):hover {
-          background: #1e2030;
           border-radius: 10px;
+          background: ${CONFIG.palette.surface0};
       }
 
       #tabs ul li:last-child {
@@ -89,7 +89,7 @@ class Statusbar extends Component {
       }
 
       #tabs ul li[active]:not(:last-child) {
-          color: #cad3f5;
+          color: ${CONFIG.palette.text};
           font-size: 13px;
           padding: 6px 0;
       }
@@ -100,24 +100,28 @@ class Statusbar extends Component {
       #tabs ul li[active]:nth-child(5) ~ li:last-child { margin: 0 0 0 140px; }
       #tabs ul li[active]:nth-child(6) ~ li:last-child { margin: 0 0 0 175px; }
 
+      #tabs ul li[active]:nth-child(1) ~ li:last-child {
+          --flavour: ${CONFIG.palette.lavender};
+      }
+
       #tabs ul li[active]:nth-child(2) ~ li:last-child {
-          --flavour: #c6a0f6;
+          --flavour: ${CONFIG.palette.mauve};
       }
 
       #tabs ul li[active]:nth-child(3) ~ li:last-child {
-          --flavour: #f5a97f;
+          --flavour: ${CONFIG.palette.peach};
       }
 
       #tabs ul li[active]:nth-child(4) ~ li:last-child {
-          --flavour: #f4dbd6;
+          --flavour: ${CONFIG.palette.rosewater};
       }
 
       #tabs ul li[active]:nth-child(5) ~ li:last-child {
-          --flavour: #f5bde6;
+          --flavour: ${CONFIG.palette.pink};
       }
 
       #tabs ul li[active]:nth-child(6) ~ li:last-child {
-          --flavour: #8aadf4;
+          --flavour: ${CONFIG.palette.blue};
       }
 
       .widgets {
@@ -177,8 +181,8 @@ class Statusbar extends Component {
 
       .fastlink {
           border: 0;
-          background: #1e2030;
-          color: ##a6da95;
+          background: ${CONFIG.palette.mantle};
+          color: ${CONFIG.palette.green};
           cursor: pointer;
           border-radius: 10px;
       }

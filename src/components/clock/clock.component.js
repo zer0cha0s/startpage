@@ -18,12 +18,12 @@ class Clock extends Component {
             white-space: nowrap;
             font: 300 9pt JetBrainsMono Nerd Font;
             src: url(../fonts/jetbrains-mono.ttf);
-            color: #cad3f5;
+            color: ${CONFIG.palette.text};
             letter-spacing: .5px;
         }
 
         .clock-icon {
-            color: ##ed8796;
+            color: ${CONFIG.palette.red};
             font-size: 10pt;
             margin-right: 10px;
         }
@@ -38,12 +38,11 @@ class Clock extends Component {
   }
 
   setIconColor() {
-    this.refs.icon.style.color = CONFIG.clock.iconColor;
+    this.refs.icon.style.color = CONFIG.palette.maroon;
   }
 
   setTime() {
     const date = new Date();
-
     this.refs.clock = date.strftime(CONFIG.clock.format);
   }
 

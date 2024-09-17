@@ -1,4 +1,4 @@
-let saved_config = JSON.parse(localStorage.getItem("CONFIG"));
+const palette = macchiato;
 
 const default_config = {
   overrideStorage: true,
@@ -8,7 +8,7 @@ const default_config = {
   },
   clock: {
     format: "h:i p",
-    iconColor: "#ed8796",
+    iconColor: palette.maroon,
   },
   disabled: [],
   fastlink: "https://linktr.ee/matt_ftw",
@@ -884,4 +884,8 @@ const default_config = {
   ],
 };
 
-const CONFIG = new Config(default_config);
+const CONFIG = new Config(default_config, palette);
+
+const root = document.querySelector(":root");
+root.style.setProperty("--bg", palette.mantle);
+root.style.setProperty("--accent", palette.green);

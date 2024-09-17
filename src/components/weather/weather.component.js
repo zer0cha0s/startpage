@@ -63,7 +63,7 @@ class Weather extends Component {
       .weather-temperature {
           font: 300 9pt JetBrainsMono Nerd Font;
           src: url(../fonts/jetbrains-mono.ttf);
-          color: #cad3f5;
+          color: ${CONFIG.palette.text};
           white-space: nowrap;
           display: flex;
           align-items: center;
@@ -91,11 +91,11 @@ class Weather extends Component {
       }
 
       .weather-condition-icon.sunny {
-          color: ##eed49f;
+          color: ${CONFIG.palette.yellow};
       }
 
       .weather-condition-icon.cloudy {
-          color: ##8aadf4;
+          color: ${CONFIG.palette.blue};
       }
     `;
   }
