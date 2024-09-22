@@ -387,28 +387,22 @@ const default_config = {
           name: "emulation/download",
           links: [
             {
-              name: "vimm's lair",
-              url: "https://vimm.net/",
-              icon: "door",
-              icon_color: "#a6da95",
-            },
-            {
               name: "roms megathread",
               url: "https://r-roms.github.io/",
               icon: "archive",
-              icon_color: "#f5a97f",
+              icon_color: "#a6da95",
             },
             {
               name: "r/emulation",
               url: "https://www.reddit.com/r/emulation/",
               icon: "pacman",
-              icon_color: "#ed8796",
+              icon_color: "#f5a97f",
             },
             {
               name: "games megathread",
               url: "https://rentry.org/pgames",
               icon: "device-gamepad",
-              icon_color: "#8aadf4",
+              icon_color: "#ed8796",
             },
           ],
         },
