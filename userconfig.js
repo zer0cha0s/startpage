@@ -217,6 +217,11 @@ const default_config = {
               url: "https://www.w3schools.com/",
               icon: "school",
               icon_color: "#ed8796",
+            {
+              name: "exercism",
+              url: "https://exercism.org/",
+              icon: "calculator",
+              icon_color: palette.blue,
             },
           ],
         },
