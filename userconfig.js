@@ -701,8 +701,8 @@ const default_config = {
               icon_color: "#a6da95",
             },
             {
-              name: "lingva",
-              url: "https://lingva.ml/",
+              name: "deepl",
+              url: "https://www.deepl.com",
               icon: "language",
               icon_color: "#f5a97f",
             },
