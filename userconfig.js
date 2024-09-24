@@ -11,7 +11,7 @@ const default_config = {
     iconColor: palette.maroon,
   },
   disabled: [],
-  fastlink: "https://linktr.ee/matt_ftw",
+  fastlink: "",
   openLastVisitedTab: false,
   tabs: [
     {
@@ -77,45 +77,11 @@ const default_config = {
           ],
         },
         {
-          name: "school",
-          links: [
-            {
-              name: "aules",
-              url: "https://aules.edu.gva.es/semipresencial/my/index.php?lang=es",
-              icon: "school",
-              icon_color: palette.green,
-            },
-            {
-              name: "outlook",
-              url: "https://outlook.office.com/mail/",
-              icon: "inbox",
-              icon_color: palette.peach,
-            },
-          ],
-        },
-        {
-          name: "job",
-          links: [
-            {
-              name: "linkedin",
-              url: "https://www.linkedin.com/",
-              icon: "brand-linkedin",
-              icon_color: palette.green,
-            },
-          ],
-        },
-        {
           name: "shopping",
           links: [
             {
-              name: "pccomponentes",
-              url: "https://www.pccomponentes.com/",
-              icon: "device-desktop",
-              icon_color: palette.green,
-            },
-            {
               name: "amazon",
-              url: "https://www.amazon.es/",
+              url: "https://www.amazon.co.uk/",
               icon: "brand-amazon",
               icon_color: palette.peach,
             },
@@ -125,18 +91,6 @@ const default_config = {
               icon: "chart-area",
               icon_color: palette.red,
             },
-            {
-              name: "chollometro",
-              url: "https://www.chollometro.com/",
-              icon: "basket",
-              icon_color: palette.blue,
-            },
-            {
-              name: "kimovil",
-              url: "https://www.kimovil.com/en/",
-              icon: "cell-signal-5",
-              icon_color: palette.mauve,
-            },
           ],
         },
         {
@@ -144,7 +98,7 @@ const default_config = {
           links: [
             {
               name: "portainer",
-              url: "http://127.0.0.1:9000",
+              url: "http://192.168.1.124:9443",
               icon: "brand-docker",
               icon_color: palette.green,
             },
@@ -479,82 +433,6 @@ const default_config = {
               icon: "brand-soundcloud",
               icon_color: palette.peach,
             },
-            {
-              name: "youtube-music",
-              url: "https://music.youtube.com/",
-              icon: "brand-youtube",
-              icon_color: palette.red,
-            },
-            {
-              name: "tidal",
-              url: "https://listen.tidal.com/",
-              icon: "brand-tidal",
-              icon_color: palette.blue,
-            },
-          ],
-        },
-        {
-          name: "rating/tracking",
-          links: [
-            {
-              name: "AOTY",
-              url: "https://www.albumoftheyear.org/",
-              icon: "calendar-time",
-              icon_color: palette.green,
-            },
-            {
-              name: "rateyourmusic",
-              url: "https://rateyourmusic.com/",
-              icon: "stars-off",
-              icon_color: palette.peach,
-            },
-            {
-              name: "lastfm",
-              url: "https://www.last.fm",
-              icon: "brand-lastfm",
-              icon_color: palette.red,
-            },
-            {
-              name: "genius",
-              url: "https://genius.com/",
-              icon: "abc",
-              icon_color: palette.blue,
-            },
-          ],
-        },
-        {
-          name: "discussion",
-          links: [
-            {
-              name: "r/musicproduction",
-              url: "https://www.reddit.com/r/musicproduction/",
-              icon: "device-speaker",
-              icon_color: palette.green,
-            },
-            {
-              name: "r/hiphopheads",
-              url: "https://www.reddit.com/r/hiphopheads/",
-              icon: "headphones",
-              icon_color: palette.peach,
-            },
-            {
-              name: "r/audiophile",
-              url: "https://www.reddit.com/r/audiophile/",
-              icon: "ear",
-              icon_color: palette.red,
-            },
-            {
-              name: "r/music",
-              url: "https://www.reddit.com/r/music/",
-              icon: "music-heart",
-              icon_color: palette.blue,
-            },
-            {
-              name: "r/metal",
-              url: "https://www.reddit.com/r/metal/",
-              icon: "guitar-pick",
-              icon_color: palette.mauve,
-            },
           ],
         },
         {
@@ -565,24 +443,6 @@ const default_config = {
               url: "https://freesound.org/",
               icon: "volume",
               icon_color: palette.green,
-            },
-            {
-              name: "pluginboutique",
-              url: "https://www.pluginboutique.com/",
-              icon: "building-store",
-              icon_color: palette.peach,
-            },
-            {
-              name: "pianobook",
-              url: "https://www.pianobook.co.uk",
-              icon: "piano",
-              icon_color: palette.red,
-            },
-            {
-              name: "musescore",
-              url: "https://musescore.com/",
-              icon: "numbers",
-              icon_color: palette.blue,
             },
             {
               name: "songsterr",
@@ -751,7 +611,7 @@ const default_config = {
           ],
         },
         {
-          name: "piracy",
+          name: "Argggh",
           links: [
             {
               name: "fmhy",
